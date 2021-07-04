@@ -10,9 +10,10 @@ from PIL import Image
 
 
 
-st.title("Personality Predicition through Handwriting   \n")
+st.title("Human Personality Prediction Using Automated Handwriting Analysis   \n")
+
 st.write("  ")
-st.markdown("Our project is based on getting handwriting of an individual and predicting main personality traits of the individual")
+st.markdown("Our project is based on upon examining the handwriting of an individual and predicting main personality traits of the individual according to a set of rules in the field of graphology")
 BASELINE_ANGLE = 0.0
 TOP_MARGIN = 0.0
 LETTER_SIZE = 0.0
@@ -1007,7 +1008,51 @@ if uploaded_file is not None:
 
 
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
+
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed by</p>
+<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/usamajavid/" target="_blank">Usama Javid Mughal</a>
+<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/amna-ahmad-1564761b2" target="_blank">Amna Ahmad</a>
+<a style='display: block; text-align: center;' href="https://www.facebook.com/abdullah.haroon.58" target="_blank">Abdullah Haroon</a>
+<a style='display: block; text-align: center;' href="https://www.facebook.com/bushra.tariq.376" target="_blank">Bushra Tariq</a>
+
+<p>Supervised by</p>
+<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/saira-qamar-96a33015a/" target="_blank">Saira Qamar</a>
+
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
 
 
 
