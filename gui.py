@@ -429,6 +429,8 @@ def prediction(image):
             space_count = 1
         average_word_spacing = float(space_columns) / space_count
         print(LETTER_SIZE)
+        if(LETTER_SIZE==0):
+            LETTER_SIZE=0.1
     
         relative_word_spacing = average_word_spacing / LETTER_SIZE
         WORD_SPACING = relative_word_spacing
