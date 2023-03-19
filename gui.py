@@ -1045,12 +1045,9 @@ text-align: center;
 <div class="footer">
 <p>Developed by</p>
 <a style='display: block; text-align: center;' href="https://www.linkedin.com/in/usamajavid/" target="_blank">Usama Javid Mughal</a>
-<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/amna-ahmad-1564761b2" target="_blank">Amna Ahmad</a>
-<a style='display: block; text-align: center;' href="https://www.facebook.com/abdullah.haroon.58" target="_blank">Abdullah Haroon</a>
-<a style='display: block; text-align: center;' href="https://www.facebook.com/bushra.tariq.376" target="_blank">Bushra Tariq</a>
 
-<p>Supervised by</p>
-<a style='display: block; text-align: center;' href="https://www.linkedin.com/in/saira-qamar-96a33015a/" target="_blank">Saira Qamar</a>
+
+
 
 </div>
 """
