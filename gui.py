@@ -10,10 +10,10 @@ from PIL import Image
 
 
 
-st.title("Human Personality Prediction Using Automated Handwriting Analysis   \n")
+st.title("Real-Time Human Emotion Prediction Based on Handwriting (An Online Platform):    \n")
 
 st.write("  ")
-st.markdown("Our project is based on upon examining the handwriting of an individual and predicting main personality traits of the individual according to a set of rules in the field of graphology")
+st.markdown("My project is based on upon examining the handwriting of an individual and predicting main emotional traits of the individual according to a set of rules in the field of graphology")
 BASELINE_ANGLE = 0.0
 TOP_MARGIN = 0.0
 LETTER_SIZE = 0.0
